@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/hello-blueocean.git'
+                git 'https://github.com/akashsakore/blue-ocean-jenkins.git'
             }
         }
 
